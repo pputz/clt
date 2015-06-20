@@ -17,6 +17,7 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       
+      br(), br(), br(), br(), br(),
       HTML("<h4> Probabilities for <br/> Each Side of a Die<h4/>"),
       h5("Enter any non-negative number"),
       numericInputRow("on", label = "Side 1", value = 1),
@@ -26,7 +27,9 @@ shinyUI(fluidPage(
       numericInputRow("fi", label = "Side 5", value = 1),
       numericInputRow("si", label = "Side 6", value = 1),
       
+      br(), br(), br(), br(), br(), br(), br(),
       hr(),
+      br(), br(), br(), br(), br(), br(), br(),
       
       h4("Sampling Parameters"),
       sliderInput("n", label = "Sample Size",
